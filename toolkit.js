@@ -41,6 +41,8 @@ function search( elements, start ) {
   } );
   return list;
 }
+
+function create(element) { return document.createElement(element) }
 /*
  *****************************************************************************
  * NATIVE EVENT
